@@ -1,12 +1,21 @@
-<script setup>
-</script>
-
 <template>
-  <nav>Navbar</nav>
-  <router-view />
-  <footer>footer</footer>
-</template>
-  
-<style scoped>
+  <div>
+    <Navbar/>
 
-</style>
+  <router-view />
+
+  <footer>
+    footer
+    </footer>
+  </div>
+</template>
+
+<script>
+import Navbar from "@/components/layouts/Navbar";
+
+export default {
+  components: {
+    Navbar,
+  }
+}
+</script>
