@@ -1,3 +1,17 @@
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+
+
+
+.hero-height {
+ height: calc(100vh - 8rem);
+}
+
+@screen sm {
+    .hero-height {
+        @apply h-screen;
+    }
+}
