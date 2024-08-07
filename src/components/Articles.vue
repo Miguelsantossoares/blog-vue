@@ -18,14 +18,14 @@
 <script>
 import Article from '@/components/Article';
 
-    export default {
+export default {
     components: {
         Article,
     },
 
-        props: {},
-    
-        setup () {
-        }
-    };
+    props: {},
+
+    setup() {
+    }
+};
 </script>
