@@ -1,33 +1,28 @@
 <template>
   <InnerPageHero image-url="/images/image-3.jpg" title="Contact Us" />
-    <div class="relative z-0 h-40 sm:h-64">
-        <img src="/public/images/image-3.jpg" alt="about" class="h-full w-full object-cover">
 
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-primary opacity-50"></div>
-
-        <div class="absolute inset-0">
-            <div class="container mx-auto px-4 sm:px-0 text-white h-full w-full flex flex-col items-center justify-center sm:justify-end text-2xl sm:text-5xl">
-                <div class="sm:mb-8 text-center">
-                    Contact Us
-                </div>
-            </div>
-        </div>
+    <div class="container mx-auto py-8 sm:py-12">
+         <div class="grid sm:grid-cols-3 sm:gap-4 px-4 sm:px-0">
+            <div><span class="text-gray-500">Adress:</span> Lorem Ipsum</div>
+            <div><span class="text-gray-500">Phone:</span> +0987654321</div>
+            <div><span class="text-gray-500">Email:</span> info@laratipsofficial.com</div>
+         </div>
     </div>
-
-    <div class="container mx-auto px-4 sm:px-0 py-8 sm:py-12">Contact
-    </div>
-</template>
+</template> 
 
 <script>
+import InnerPageHero from '@/components/InnerPageHero';
 
 export default {
+    components: {
+        InnerPageHero,
+    },
 
     
     setup () {
         
 
         return {}
-    }
+    },
 }
 </script>

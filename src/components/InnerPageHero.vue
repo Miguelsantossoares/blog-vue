@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-0 h-40 sm:h-64">
-    <img src="/public/images/image-3.jpg" alt="about" class="h-full     w-full object-cover">
+    <img :src="imageUrl" alt="about" class="h-full w-full object-cover">
 
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="absolute inset-0 bg-gradient-to-t from-primary    opacity-50"></div>
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+
 export default {
   props: {
     imageUrl: {
