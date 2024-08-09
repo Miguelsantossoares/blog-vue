@@ -1,7 +1,7 @@
 <template>
     <InnerPageHero image-url="/images/image-3.jpg" title="Articles" />
 
-    <div class="container mx-auto py-8 sm:py-12">
+    <div class="container mx-auto px-4 sm:px-0 py-8 sm:py-20">
        <Articles layout="grid" :show-view-all="false" />
 
        <div class="mt-8 sm:mt-12">

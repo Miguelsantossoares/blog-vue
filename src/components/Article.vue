@@ -6,7 +6,7 @@
         <div class="mt-1 sm:col-span-2 flex flex-col justify-between">
             <div :class="{'sm:py-2 sm:mt-0': isGrid,}">
                 <div class="text-base text-gray-500">Category name</div>
-                <h3 class="mt-1 text-2xl"><router-link to="/artiles"
+                <h3 class="mt-1 text-2xl"><router-link to="/articles/info"
                         class="hover:text-primary font-bold transition-colors duration-300">Lorem ipsum dolor sit amet,
                         consectetur adipisicing.</router-link></h3>
                 <div class="mt-2 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -35,7 +35,7 @@ export default {
     props: {
         layout: {
             type: String,
-            default: "List"
+            default: "list"
         }
     },
 
